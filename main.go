@@ -38,7 +38,7 @@ func Delete(users *[]*User, id int) {
 func main() {
 	var users []*User
 
-	Add(&users, 1, "Иван", 25)
+	Add(&users, 1, "Иванв", 25)
 	Add(&users, 2, "Мария", 30)
 	Add(&users, 3, "Пётр", 22)
 
